@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "gitban-remote": {
+      "comment": "Gitban MCP Server - Railway Hosted Deployment",
+      "command": "curl",
+      "args": [
+        "-X", "POST",
+        "-H", "Content-Type: application/json",
+        "-H", "User-Agent: VSCode-MCP-Client",
+        "https://your-gitban-app.railway.app/mcp",
+        "--data-binary", "@-",
+        "--silent",
+        "--show-error"
+      ]
+    }
+  }
+}

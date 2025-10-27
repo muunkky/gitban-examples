@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "gitban": {
+      "comment": "Gitban MCP Server - STABLE Production Installation",
+      "command": "C:/Users/Cameron/Projects/modelcontextprotocol/gitban-mcp/.venv/Scripts/python.exe",
+      "args": ["-u", "-m", "gitban.mcp_server"]
+    }
+  }
+}

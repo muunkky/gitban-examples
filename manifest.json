@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
   "gitban_min_version": "0.5.0",
-  "base_url": "https://raw.githubusercontent.com/muunkky/gitban-examples/main",
+  "base_url": "https://raw.githubusercontent.com/muunkky/gitban-mcp/main/templates",
   "description": "Canonical example cards demonstrating gitban best practices across all card types and complexity levels",
-  "repository": "https://github.com/muunkky/gitban-examples",
+  "repository": "https://github.com/muunkky/gitban-mcp",
   "last_updated": "2025-10-27",
   "_note": "Example files use descriptive names (feature-simple-button.md) for readability. To use as actual gitban cards, rename to gitban convention (backlog-P1-feature-title-id.md) or use download_example_card() which handles this automatically.",
   "examples": [
