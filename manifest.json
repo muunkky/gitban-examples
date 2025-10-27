@@ -1,0 +1,169 @@
+{
+  "version": "1.0.0",
+  "gitban_min_version": "0.5.0",
+  "base_url": "https://raw.githubusercontent.com/muunkky/gitban-examples/main",
+  "description": "Canonical example cards demonstrating gitban best practices across all card types and complexity levels",
+  "repository": "https://github.com/muunkky/gitban-examples",
+  "last_updated": "2025-10-27",
+  "_note": "Example files use descriptive names (feature-simple-button.md) for readability. To use as actual gitban cards, rename to gitban convention (backlog-P1-feature-title-id.md) or use download_example_card() which handles this automatically.",
+  "examples": [
+    {
+      "id": "feature-simple-button",
+      "name": "Add Submit Button to Form",
+      "card_type": "feature",
+      "complexity": "simple",
+      "description": "Simple feature card demonstrating basic UI component addition with acceptance criteria and testing strategy",
+      "tags": ["ui", "frontend", "beginner-friendly", "react"],
+      "filename": "examples/feature-simple-button.md",
+      "size_bytes": 1211,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "feature-medium-api",
+      "name": "Implement User Profile API Endpoint",
+      "card_type": "feature",
+      "complexity": "medium",
+      "description": "Medium complexity feature showing REST API design, authentication, validation, and database operations",
+      "tags": ["api", "backend", "rest", "authentication"],
+      "filename": "examples/feature-medium-api.md",
+      "size_bytes": 2679,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "feature-complex-auth",
+      "name": "Implement OAuth2 Authentication System",
+      "card_type": "feature",
+      "complexity": "complex",
+      "description": "Complex feature demonstrating comprehensive system design with multiple components, security considerations, and phased implementation",
+      "tags": ["authentication", "oauth", "security", "architecture"],
+      "filename": "examples/feature-complex-auth.md",
+      "size_bytes": 7174,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "bug-simple-crash",
+      "name": "App Crashes When Clicking Delete Button",
+      "card_type": "bug",
+      "complexity": "simple",
+      "description": "Simple bug card with clear reproduction steps, root cause analysis, and proposed fix",
+      "tags": ["bug", "crash", "frontend", "beginner-friendly"],
+      "filename": "examples/bug-simple-crash.md",
+      "size_bytes": 1816,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "bug-medium-performance",
+      "name": "Dashboard Page Loads Slowly with Large Datasets",
+      "card_type": "bug",
+      "complexity": "medium",
+      "description": "Performance bug with metrics, profiling data, root cause analysis, and optimization plan",
+      "tags": ["performance", "optimization", "react", "profiling"],
+      "filename": "examples/bug-medium-performance.md",
+      "size_bytes": 3959,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "docs-api-documentation",
+      "name": "Document User Management API Endpoints",
+      "card_type": "docs",
+      "complexity": "medium",
+      "description": "Documentation card demonstrating OpenAPI spec creation, examples, and comprehensive API documentation",
+      "tags": ["documentation", "api", "openapi", "technical-writing"],
+      "filename": "examples/docs-api-documentation.md",
+      "size_bytes": 4150,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "test-increase-coverage",
+      "name": "Increase Test Coverage for Auth Module",
+      "card_type": "test",
+      "complexity": "medium",
+      "description": "Testing card showing coverage analysis, test planning, and systematic approach to improving test coverage",
+      "tags": ["testing", "coverage", "unit-tests", "integration-tests"],
+      "filename": "examples/test-increase-coverage.md",
+      "size_bytes": 5624,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "chore-dependency-update",
+      "name": "Update Dependencies to Latest Versions",
+      "card_type": "chore",
+      "complexity": "medium",
+      "description": "Maintenance task demonstrating dependency management, security updates, and systematic upgrade approach",
+      "tags": ["maintenance", "dependencies", "security", "npm"],
+      "filename": "examples/chore-dependency-update.md",
+      "size_bytes": 4314,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "refactor-simplify-auth",
+      "name": "Refactor Authentication Module to Reduce Complexity",
+      "card_type": "refactor",
+      "complexity": "complex",
+      "description": "Refactoring card showing code quality improvement, architectural redesign, and systematic refactoring approach",
+      "tags": ["refactoring", "architecture", "clean-code", "design-patterns"],
+      "filename": "examples/refactor-simplify-auth.md",
+      "size_bytes": 7388,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "style-code-formatting",
+      "name": "Fix Code Formatting with Prettier",
+      "card_type": "style",
+      "complexity": "simple",
+      "description": "Style card demonstrating code formatting standardization, tooling setup, and pre-commit hooks",
+      "tags": ["style", "formatting", "prettier", "tooling"],
+      "filename": "examples/style-code-formatting.md",
+      "size_bytes": 2140,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "perf-optimize-queries",
+      "name": "Optimize Database Queries for User Dashboard",
+      "card_type": "perf",
+      "complexity": "complex",
+      "description": "Performance optimization card with query analysis, indexing strategy, N+1 fixes, and caching implementation",
+      "tags": ["performance", "database", "optimization", "caching"],
+      "filename": "examples/perf-optimize-queries.md",
+      "size_bytes": 4717,
+      "last_updated": "2025-10-27"
+    },
+    {
+      "id": "ci-github-actions",
+      "name": "Set Up GitHub Actions CI/CD Pipeline",
+      "card_type": "ci",
+      "complexity": "medium",
+      "description": "CI/CD setup card demonstrating workflow configuration, automated testing, deployment, and security scanning",
+      "tags": ["ci-cd", "github-actions", "automation", "devops"],
+      "filename": "examples/ci-github-actions.md",
+      "size_bytes": 6361,
+      "last_updated": "2025-10-27"
+    }
+  ],
+  "categories": {
+    "by_complexity": {
+      "simple": ["feature-simple-button", "bug-simple-crash", "style-code-formatting"],
+      "medium": ["feature-medium-api", "bug-medium-performance", "docs-api-documentation", "test-increase-coverage", "chore-dependency-update", "ci-github-actions"],
+      "complex": ["feature-complex-auth", "refactor-simplify-auth", "perf-optimize-queries"]
+    },
+    "by_type": {
+      "feature": ["feature-simple-button", "feature-medium-api", "feature-complex-auth"],
+      "bug": ["bug-simple-crash", "bug-medium-performance"],
+      "docs": ["docs-api-documentation"],
+      "test": ["test-increase-coverage"],
+      "chore": ["chore-dependency-update"],
+      "refactor": ["refactor-simplify-auth"],
+      "style": ["style-code-formatting"],
+      "perf": ["perf-optimize-queries"],
+      "ci": ["ci-github-actions"]
+    },
+    "by_tag": {
+      "beginner-friendly": ["feature-simple-button", "bug-simple-crash"],
+      "frontend": ["feature-simple-button", "bug-simple-crash", "bug-medium-performance"],
+      "backend": ["feature-medium-api"],
+      "security": ["feature-complex-auth", "chore-dependency-update"],
+      "performance": ["bug-medium-performance", "perf-optimize-queries"],
+      "architecture": ["feature-complex-auth", "refactor-simplify-auth"]
+    }
+  }
+}
