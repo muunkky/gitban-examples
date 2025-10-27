@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "gitban_min_version": "0.5.0",
-  "base_url": "https://muunkky.github.io/gitban-examples",
+  "base_url": "https://raw.githubusercontent.com/muunkky/gitban-examples/main",
   "description": "Canonical example cards demonstrating gitban best practices across all card types and complexity levels",
   "repository": "https://github.com/muunkky/gitban-examples",
   "last_updated": "2025-10-27",
